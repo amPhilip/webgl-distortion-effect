@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="loading">
+    <!-- add karla font -->
+
+    <header>
+      <div class="inner">
+        <div class="logo">
+          <h1>WebGL</h1>
+        </div>
+        <div class="burger"></div>
+        <nav>
+          <a class="active" href="#">Culture</a>
+          <a href="#">About Us</a>
+          <a href="#">Our Work</a>
+          <a href="#">Projects</a>
+        </nav>
+        <a href="#" class="cont-link">Contribute</a>
+      </div>
+    </header>
+
+    <main>
+      <div id="slider">
+        <div class="slider-inner">
+          <div id="slider-content">
+            <div class="meta">Culture</div>
+            <h2 id="slide-title">Lorem<br />Ipsum</h2>
+            <span data-slide-title="0">Lorem <br />Ipsum</span>
+            <span data-slide-title="1">Lorem <br />Ipsum</span>
+            <span data-slide-title="2">Lorem <br />Ipsum</span>
+            <span data-slide-title="3">Lorem<br />Ipsum</span>
+            <div class="meta">Status</div>
+            <div id="slide-status">Diversity</div>
+            <span data-slide-status="0">Diversity</span>
+            <span data-slide-status="1">Life</span>
+            <span data-slide-status="2">Beauty</span>
+            <span data-slide-status="3">Roots</span>
+          </div>
+        </div>
+
+        <img src="images/pic.png" width="100" height="auto" />
+        <img src="images/pic2.png" width="100" height="auto" />
+        <img src="images/pic3.png" width="100" height="auto" />
+        <img src="images/pic5.png" />
+
+        <div id="pagination">
+          <button class="active" data-slide="0"></button>
+          <button data-slide="1"></button>
+          <button data-slide="2"></button>
+          <button data-slide="3"></button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-40525870-5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-40525870-5");
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
